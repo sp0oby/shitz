@@ -1,0 +1,11 @@
+img {
+    display: inline-block;
+    width: 100%; // Show 4 images in a row normally
+    height: auto;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%; // Override width to show only one image in a row on smaller screens
+  }
+}
